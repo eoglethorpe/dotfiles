@@ -18,4 +18,7 @@ then
     ssh-add ~/.ssh/id_rsa
     cat ~/.ssh/id_rsa.pub
     ssh -T git@github.com
+
+    git config --global user.name
+    git config --global user.email
 fi
