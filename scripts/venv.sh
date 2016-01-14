@@ -4,7 +4,7 @@ elif [[ "$1" == "darwin"* ]]; then
         os='osx'
 fi
 
-pip install virtualenv
+sudo pip install virtualenv
 
 if [ ! -d $HOME"/code/venv/" ];
 then

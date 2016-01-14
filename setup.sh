@@ -1,3 +1,4 @@
+#!/bin/bash
 echo 'Running Setup'
 
 
@@ -51,6 +52,6 @@ do
     if [ -f -a $SCRIPT ]
     then
         echo 'Executing' $SCRIPT
-        sh $SCRIPT $os
+        bash $SCRIPT $os
     fi
 done
