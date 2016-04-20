@@ -25,6 +25,7 @@ fi
 #get OS and do some initial installs
 if [[ "$OSTYPE" == "linux-gnu" ]]; then
     os='linux'
+    sudo apt-get update
     
     if ! exists pip;
     then
